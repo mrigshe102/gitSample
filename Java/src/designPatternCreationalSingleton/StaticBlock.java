@@ -1,5 +1,9 @@
 package designPatternCreationalSingleton;
-
+/**
+ * @author      Mrigank Shekhar <mrigankshekhar@icloud.com>
+ * @version     1.1                 (current version number of program)
+ * @since       1.0          (the version of the package this class was first added to)
+ */
 public class StaticBlock {
 	/*
 	 * Declaring private and static instance of class which will be its only instantiation.
