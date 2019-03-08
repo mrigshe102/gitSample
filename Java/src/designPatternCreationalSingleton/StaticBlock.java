@@ -1,7 +1,5 @@
 package designPatternCreationalSingleton;
 
-import javax.management.RuntimeErrorException;
-
 public class StaticBlock {
 	/*
 	 * Declaring private and static instance of class which will be its only instantiation.
