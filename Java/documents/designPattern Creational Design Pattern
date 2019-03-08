@@ -1,0 +1,18 @@
+Creational Design Pattern
+  -> It provides solution to instantiate an object in best possible way.
+  -> Creating objects without structure adds complexity in the project and the solution
+    to those lies in below 5 ways.
+
+    1. Singleton Pattern
+    This pattern has purpose to make-sure there is only instance of class created in the
+    JVM. It is mostly used in the tasks such as logging, creating driver objects, caching or thread
+    pooling.
+    It is also used in other desing pattern such as Abstract, Factory, Builder, Prototype, Facade etc.
+
+    Concept -
+    A. Create private constructor to restrict instantiation of the class from other classes.
+    B. Private static variable of the same class that is the only instance of the class.
+    C. Public static method that returns the instance of the class, this is the global access point for
+      outer world to get the instance of the singleton class.
+
+The example code can be referred for above example detail.
