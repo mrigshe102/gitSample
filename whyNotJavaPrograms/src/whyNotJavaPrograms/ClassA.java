@@ -9,8 +9,12 @@ import java.util.Scanner;
 public class ClassA {
 public static void main(String[] args) {
 	/*
-	 * Printing triangle of stars
-	 */
+	 * Printing triangle of stars - 
+	 * 	* 
+	 * 	* * 
+	 * 	* * * 
+	 * 	* * * * 
+	*/
 	System.out.print("How many stars you want? __");
 	Scanner scan = new Scanner(System.in);
 	int a = scan.nextInt();

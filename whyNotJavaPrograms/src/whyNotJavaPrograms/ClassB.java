@@ -11,6 +11,11 @@ public class ClassB {
 public static void main(String[] args) {
 	/*
 	 * Printing inverted triangle of stars
+	 * 
+	 * 		* * * * * 
+	 * 		* * * 
+	 * 		* * 
+	 * 		* 
 	 */
 	System.out.print("How many stars you want? __");
 	Scanner scan = new Scanner(System.in);
