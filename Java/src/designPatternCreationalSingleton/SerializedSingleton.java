@@ -18,5 +18,7 @@ public class SerializedSingleton implements Serializable{
 	public static SerializedSingleton getInstance(){
 		return SingletonHelper.instance;
 		}
-
+	/*
+	 * protected Object readResolve() { return getInstance(); }
+	 */
 }
